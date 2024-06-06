@@ -8,27 +8,43 @@ const app = express();
 app.use(cors());
 
 const apiKey = process.env.YOUR_API_KEY;
-const clientId = process.env.YOUR_CLIENT_ID;
 
 app.get('/api/businesses', async (req, res) => {
   try {
     const endpoint = 'https://api.yelp.com/v3/businesses/search';
     const params = {
       term: 'bubble tea',
-      location: 'Vancouver, Richmond'
+      location: 'Vancouver'
     };
 
     const response = await axios.get(endpoint, {
       params,
       headers: {
-        Authorization: `Bearer ${apiKey}`,
-        'Client-ID': clientId
+        Authorization: `Bearer ${apiKey}`
       }
     });
 
     res.json(response.data);
   } catch (error) {
     console.error('Error fetching data from Yelp API:', error.message);
+    res.status(500).json({ error: 'Failed to fetch data' });
+  }
+});
+
+app.get('/api/businesses/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const endpoint = `https://api.yelp.com/v3/businesses/${id}`;
+
+    const response = await axios.get(endpoint, {
+      headers: {
+        Authorization: `Bearer ${apiKey}`
+      }
+    });
+
+    res.json(response.data);
+  } catch (error) {
+    console.error('Error fetching data:', error.message);
     res.status(500).json({ error: 'Failed to fetch data' });
   }
 });
