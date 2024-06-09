@@ -14,7 +14,7 @@ app.get('/api/businesses', async (req, res) => {
     const endpoint = 'https://api.yelp.com/v3/businesses/search';
     const params = {
       term: 'bubble tea',
-      location: 'Vancouver'
+      location: 'Richmond,British Columbia'
     };
 
     const response = await axios.get(endpoint, {
