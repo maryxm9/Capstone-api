@@ -62,8 +62,37 @@ app.get('/api/businesses/:businessId/drinks/:drinkId/rating', (req, res) => {
   if (!drink) {
     return res.status(404).json({ error: 'Drink not found' });
   }
-  res.json({ id: drink.id, rating: drink.rating });
+  res.json({ rating: drink.rating });
 });
+
+// Route to update the rating of a specific drink
+app.post('/api/businesses/:businessId/drinks/:drinkId/rating', (req, res) => {
+  const { businessId, drinkId } = req.params;
+  const { rating } = req.body;
+  
+  const businessIndex = busdrinkdata.restaurants.findIndex(restaurant => restaurant.id === businessId);
+  if (businessIndex === -1) {
+    return res.status(404).json({ error: 'Business not found' });
+  }
+
+  const drinkIndex = busdrinkdata.restaurants[businessIndex].drinks.findIndex(drink => drink.id === drinkId);
+  if (drinkIndex === -1) {
+    return res.status(404).json({ error: 'Drink not found' });
+  }
+
+  //update the rating
+  busdrinkdata.restaurants[businessIndex].drinks[drinkIndex].rating = rating;
+
+  //calculate the average rating
+  const totalRatings = busdrinkdata.restaurants[businessIndex].drinks.reduce((acc, curr) => acc + curr.rating, 0);
+  const averageRating = totalRatings / busdrinkdata.restaurants[businessIndex].drinks.length;
+
+  //update to the new average rating 
+  busdrinkdata.restaurants[businessIndex].rating = averageRating;
+
+  res.json({ message: 'Rating updated successfully', newRating: rating, averageRating });
+});
+
 
 const port = 3000;
 app.listen(port, () => {
