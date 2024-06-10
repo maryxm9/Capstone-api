@@ -10,7 +10,7 @@
           "description": "Black tea, cream, and bubble.",
           "image": "bubble_milk_tea.png",
           "price": 8.5,
-          "rating": 4.8
+          "rating": 3
         },
         {
           "id": "2",
@@ -26,7 +26,7 @@
           "description": "Fresh milk, brown sugar, and bubble.",
           "image": "bubble_volcano.png",
           "price": 8.75,
-          "rating": 5.0
+          "rating": 5
         },
         {
           "id": "4",
@@ -34,7 +34,7 @@
           "description": "High mountain pouchong tea, lemon juice, and mousse.",
           "image": "lemon_wonderland.png",
           "price": 8.5,
-          "rating": 5.0
+          "rating": 5
         },
         {
           "id": "5",
@@ -58,7 +58,7 @@
           "description": "Dong-ding oolong tea.",
           "image": "dong_ding_oolong_tea.png",
           "price": 6.5,
-          "rating": 5.0
+          "rating": 5
         },
         {
           "id": "8",
@@ -66,7 +66,7 @@
           "description": "High mountain pouchong tea.",
           "image": "high_mountain_pouchong_tea.png",
           "price": 6.5,
-          "rating": 5.0
+          "rating": 5
         },
         {
           "id": "9",
@@ -74,7 +74,7 @@
           "description": "Cassia black tea.",
           "image": "cassia_black_tea.png",
           "price": 6.5,
-          "rating": 5.0
+          "rating": 5
         }
       ]
     },

@@ -2,6 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
 require('dotenv').config();
+
 let busdrinkdata = require('./DrinksData.json');
 
 const app = express();
@@ -10,6 +11,10 @@ app.use(cors());
 app.use(express.json());
 
 const apiKey = process.env.YOUR_API_KEY;
+
+app.get('/', (req, res) => {
+  res.send('Welcome to the backend');
+});
 
 app.get('/api/businesses', async (req, res) => {
   try {
@@ -58,6 +63,7 @@ app.post('/api/businesses/:businessId/drinks/:drinkId/rating', (req, res) => {
 
   // Replace the old rating with the new rating
   busdrinkdata.restaurants[businessIndex].drinks[drinkIndex].rating = rating;
+
 });
 
 const port = 3000;
