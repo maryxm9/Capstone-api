@@ -1,0 +1,238 @@
+{
+  "restaurants": [
+    {
+      "id": "Bww8dzSpRTAVPAFoGCt44g",
+      "name": "ChiCha San Chen",
+      "drinks": [
+        {
+          "id": "1",
+          "name": "Bubble Milk Tea",
+          "description": "Black tea, cream, and bubble.",
+          "image": "bubble_milk_tea.png",
+          "price": 8.5,
+          "rating": 4.8
+        },
+        {
+          "id": "2",
+          "name": "Honey Osmanthus Oolong Tea",
+          "description": "Osmanthus oolong tea and honey.",
+          "image": "honey_osmanthus_oolong_tea.png",
+          "price": 7.5,
+          "rating": 4.7
+        },
+        {
+          "id": "3",
+          "name": "Bubble Volcano",
+          "description": "Fresh milk, brown sugar, and bubble.",
+          "image": "bubble_volcano.png",
+          "price": 8.75,
+          "rating": 5.0
+        },
+        {
+          "id": "4",
+          "name": "Lemon Wonderland",
+          "description": "High mountain pouchong tea, lemon juice, and mousse.",
+          "image": "lemon_wonderland.png",
+          "price": 8.5,
+          "rating": 5.0
+        },
+        {
+          "id": "5",
+          "name": "Taro King",
+          "description": "Black tea or green tea, cream, taro paste, and bubble.",
+          "image": "taro_king.png",
+          "price": 9.5,
+          "rating": 4.6
+        },
+        {
+          "id": "6",
+          "name": "Formosa Fruit Tea",
+          "description": "Black tea, orange juice, and fresh fruits.",
+          "image": "formosa_fruit_tea.png",
+          "price": 8.5,
+          "rating": 3.8
+        },
+        {
+          "id": "7",
+          "name": "Dong-ding Oolong Tea",
+          "description": "Dong-ding oolong tea.",
+          "image": "dong_ding_oolong_tea.png",
+          "price": 6.5,
+          "rating": 5.0
+        },
+        {
+          "id": "8",
+          "name": "High Mountain Pouchong Tea",
+          "description": "High mountain pouchong tea.",
+          "image": "high_mountain_pouchong_tea.png",
+          "price": 6.5,
+          "rating": 5.0
+        },
+        {
+          "id": "9",
+          "name": "Cassia Black Tea",
+          "description": "Cassia black tea.",
+          "image": "cassia_black_tea.png",
+          "price": 6.5,
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "id": "D9e5fyBSt1vQRNSGypyChg",
+      "name": "Macu Tea",
+      "drinks": [
+        {
+          "id": "macu1",
+          "name": "Premium Orange Fruit Tea",
+          "description": "A refreshing blend of real orange pieces with tea.",
+          "image": "premium_orange_fruit_tea.png",
+          "price": 8.5,
+          "rating": 5
+        },
+        {
+          "id": "macu2",
+          "name": "Ruby Grapefruit Tea",
+          "description": "A delicious tea with real ruby grapefruit pieces.",
+          "image": "ruby_grapefruit_tea.png",
+          "price": 8.5,
+          "rating": 4.7
+        },
+        {
+          "id": "macu3",
+          "name": "Yakult with Grapefruit Drink",
+          "description": "A tangy Yakult drink with fresh grapefruit.",
+          "image": "yakult_grapefruit.png",
+          "price": 8.95,
+          "rating": 4.9
+        },
+        {
+          "id": "macu4",
+          "name": "Sunshine Fruit Tea",
+          "description": "A mix of orange and passion fruit in tea.",
+          "image": "sunshine_fruit_tea.png",
+          "price": 9.5,
+          "rating": 5
+        },
+        {
+          "id": "macu5",
+          "name": "Boba Milk Tea",
+          "description": "Classic milk tea with chewy boba.",
+          "image": "boba_milk_tea.png",
+          "price": 7.25,
+          "rating": 4.8
+        },
+        {
+          "id": "macu6",
+          "name": "QQ/3Q Milk Tea",
+          "description": "A flavorful milk tea with QQ and 3Q toppings.",
+          "image": "qq_3q_milk_tea.png",
+          "price": 7.5,
+          "rating": 5
+        },
+        {
+          "id": "macu7",
+          "name": "Yakult with Passion Fruit Drink",
+          "description": "Yakult drink blended with passion fruit.",
+          "image": "yakult_passion_fruit.png",
+          "price": 8.95,
+          "rating": 4.7
+        },
+        {
+          "id": "macu8",
+          "name": "Grapefruit with Honey Drink",
+          "description": "Sweet honey drink with grapefruit pieces.",
+          "image": "grapefruit_honey.png",
+          "price": 8.5,
+          "rating": 5
+        },
+        {
+          "id": "macu9",
+          "name": "Chi-Chi Golden Leaf Tea",
+          "description": "Golden leaf tea with a unique aroma.",
+          "image": "golden_leaf_tea.png",
+          "price": 7.25,
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "D1h5OIPNj2YhVXbs6mwwKQ",
+      "name": "101 Boba",
+      "drinks": [
+        {
+          "id": "1011",
+          "name": "No.8 Juice",
+          "description": "A unique blend of various fruits for a refreshing taste.",
+          "image": "no8_juice.png",
+          "price": 6.9,
+          "rating": 5
+        },
+        {
+          "id": "1012",
+          "name": "Milk Tea With Ice Cream",
+          "description": "Classic milk tea topped with creamy ice cream.",
+          "image": "milk_tea_ice_cream.png",
+          "price": 7.5,
+          "rating": 5
+        },
+        {
+          "id": "1013",
+          "name": "Taro Oolong Milk Tea",
+          "description": "A flavorful combination of taro and oolong tea with milk.",
+          "image": "taro_oolong_milk_tea.png",
+          "price": 7.9,
+          "rating": 5
+        },
+        {
+          "id": "1014",
+          "name": "Orange Yakult",
+          "description": "Tangy orange blended with yakult for a refreshing drink.",
+          "image": "orange_yakult.png",
+          "price": 8.9,
+          "rating": 4.5
+        },
+        {
+          "id": "1015",
+          "name": "Four Season Tea with Mango Sorbetto Ice Cream",
+          "description": "Four season tea paired with mango sorbetto ice cream.",
+          "image": "four_season_tea_mango_sorbetto.png",
+          "price": 6.7,
+          "rating": 4.7
+        },
+        {
+          "id": "1016",
+          "name": "Taro Green Milk Tea",
+          "description": "A delicious blend of taro and green tea with milk.",
+          "image": "taro_green_milk_tea.png",
+          "price": 7.9,
+          "rating": 5
+        },
+        {
+          "id": "1017",
+          "name": "Blueberry & Banana Smoothie",
+          "description": "A smoothie made with fresh blueberries and bananas.",
+          "image": "blueberry_banana_smoothie.png",
+          "price": 7.5,
+          "rating": 4.8
+        },
+        {
+          "id": "1018",
+          "name": "Caramel Macchiato",
+          "description": "A rich caramel macchiato for a perfect coffee fix.",
+          "image": "caramel_macchiato.png",
+          "price": 6.5,
+          "rating": 4.6
+        },
+        {
+          "id": "1019",
+          "name": "Mango Smoothie",
+          "description": "A refreshing mango smoothie made with fresh mangoes.",
+          "image": "mango_smoothie.png",
+          "price": 7.5,
+          "rating": 4.9
+        }
+      ]
+    }
+  ]
+}
