@@ -10,7 +10,7 @@
           "description": "Black tea, cream, and bubble.",
           "image": "bubble_milk_tea.png",
           "price": 8.5,
-          "rating": 3
+          "rating": 4.8
         },
         {
           "id": "2",
@@ -26,7 +26,7 @@
           "description": "Fresh milk, brown sugar, and bubble.",
           "image": "bubble_volcano.png",
           "price": 8.75,
-          "rating": 5
+          "rating": 5.0
         },
         {
           "id": "4",
@@ -34,7 +34,7 @@
           "description": "High mountain pouchong tea, lemon juice, and mousse.",
           "image": "lemon_wonderland.png",
           "price": 8.5,
-          "rating": 5
+          "rating": 5.0
         },
         {
           "id": "5",
@@ -58,7 +58,7 @@
           "description": "Dong-ding oolong tea.",
           "image": "dong_ding_oolong_tea.png",
           "price": 6.5,
-          "rating": 5
+          "rating": 5.0
         },
         {
           "id": "8",
@@ -66,7 +66,7 @@
           "description": "High mountain pouchong tea.",
           "image": "high_mountain_pouchong_tea.png",
           "price": 6.5,
-          "rating": 5
+          "rating": 5.0
         },
         {
           "id": "9",
@@ -74,7 +74,7 @@
           "description": "Cassia black tea.",
           "image": "cassia_black_tea.png",
           "price": 6.5,
-          "rating": 5
+          "rating": 5.0
         }
       ]
     },
@@ -231,6 +231,84 @@
           "image": "mango_smoothie.png",
           "price": 7.5,
           "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": "sabh580DiAgd6v4QkLxGvQ",
+      "name": "Peanuts",
+      "drinks": [
+        {
+          "id": "bubbleTea1",
+          "name": "Classic Bubble Milk Tea",
+          "description": "Traditional black tea with creamy milk and tapioca pearls.",
+          "image": "bt1.png",
+          "price": 6.5,
+          "rating": 4.5
+        },
+        {
+          "id": "bubbleTea2",
+          "name": "Taro Boba Tea",
+          "description": "Rich taro flavor blended with milk and chewy boba pearls.",
+          "image": "bt2.png",
+          "price": 7.0,
+          "rating": 4.7
+        },
+        {
+          "id": "bubbleTea3",
+          "name": "Strawberry Bubble Tea",
+          "description": "Fresh strawberry flavor combined with black tea and boba pearls.",
+          "image": "bt3.png",
+          "price": 6.8,
+          "rating": 4.3
+        },
+        {
+          "id": "bubbleTea4",
+          "name": "Matcha Green Tea Latte",
+          "description": "Creamy matcha latte with a touch of sweetness and tapioca pearls.",
+          "image": "bt4.png",
+          "price": 7.5,
+          "rating": 4.8
+        },
+        {
+          "id": "bubbleTea5",
+          "name": "Brown Sugar Bubble Tea",
+          "description": "Rich brown sugar syrup infused with milk and chewy boba pearls.",
+          "image": "bt5.png",
+          "price": 7.2,
+          "rating": 4.6
+        },
+        {
+          "id": "bubbleTea6",
+          "name": "Coconut Milk Tea",
+          "description": "Creamy coconut milk blended with black tea and tapioca pearls.",
+          "image": "bt6.png",
+          "price": 6.9,
+          "rating": 4.4
+        },
+        {
+          "id": "bubbleTea7",
+          "name": "Honeydew Bubble Tea",
+          "description": "Refreshing honeydew flavor mixed with milk and boba pearls.",
+          "image": "bt7.png",
+          "price": 7.0,
+          "rating": 4.5
+        },
+        {
+          "id": "bubbleTea8",
+          "name": "Mango Bubble Tea",
+          "description": "Tropical mango flavor blended with creamy milk and tapioca pearls.",
+          "image": "bt8.png",
+          "price": 7.2,
+          "rating": 4.7
+        },
+        {
+          "id": "bubbleTea9",
+          "name": "Peach Bubble Tea",
+          "description": "Sweet peach flavor combined with black tea and chewy boba pearls.",
+          "image": "bt9.png",
+          "price": 6.8,
+          "rating": 4.5
         }
       ]
     }
